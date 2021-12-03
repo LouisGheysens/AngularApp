@@ -1,5 +1,5 @@
 {
-  "name": "myangularapp",
+  "name": "myangularappbackend",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -18,6 +18,9 @@
     "@angular/platform-browser": "~13.0.0",
     "@angular/platform-browser-dynamic": "~13.0.0",
     "@angular/router": "~13.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -35,5 +38,17 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.4.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LouisGheysens/AngularApp.git"
+  },
+  "author": "LouisGheysens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LouisGheysens/AngularApp/issues"
+  },
+  "homepage": "https://github.com/LouisGheysens/AngularApp#readme"
 }
